@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="TestUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ErrorValidationsPage(failed)">
+    <classes>
+      <class name="frameworkpackage.ErrorValidation">
+        <methods>
+          <include name="Configuration"/>
+          <include name="preSetup"/>
+          <include name="tearDown"/>
+          <include name="ErrorCheck"/>
+        </methods>
+      </class> <!-- frameworkpackage.ErrorValidation -->
+    </classes>
+  </test> <!-- ErrorValidationsPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
